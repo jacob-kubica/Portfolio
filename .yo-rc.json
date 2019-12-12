@@ -1,0 +1,26 @@
+{
+  "generator-ngx-rocket": {
+    "version": "7.1.0",
+    "props": {
+      "location": "path",
+      "strict": false,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "appName": "portfolio",
+      "target": ["web", "cordova", "electron"],
+      "pwa": true,
+      "mobile": ["ios", "android"],
+      "desktop": ["windows", "mac", "linux"],
+      "ui": "material",
+      "layout": "side-menu",
+      "auth": true,
+      "lazy": true,
+      "angulartics": false,
+      "tools": ["prettier", "hads", "compodoc", "jest"],
+      "utility": ["lodash", "moment"],
+      "projectName": "portfolio",
+      "packageManager": "npm"
+    }
+  }
+}
